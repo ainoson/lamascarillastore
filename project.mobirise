@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page4.html",
     "theme": {
       "name": "antivirusamp",
       "title": "AntiVirusAMP",
@@ -48,7 +48,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 32,
+    "uniqCompNum": 45,
     "versionPublish": "5.1.4",
     "screenshot": "screenshot.png",
     "robotsSwitcher": true,
@@ -56,26 +56,15 @@
     "sitemapSwitcher": true,
     "siteUrl": "https://www.lamascarillastore.com",
     "sitemapSwitcherAuto": "on",
-    "cookiesAlert": {
-      "customDialogSelector": true,
-      "colorText": "#424a4d",
-      "colorBg": "#eaeff1",
-      "colorButton": "",
-      "colorLink": "#424a4d",
-      "underlineLink": true,
-      "opacity": "99",
-      "opacityOverlay": "80",
-      "text": "Utilizamos cookies propias y de terceros para mejorar la experiencia del usuario a través de su navegación. Si continúas navegando aceptas su uso. <a href='privacidad.html'>Política de cookies</a>.",
-      "textButton": "Entendido"
-    },
     "favicon": false,
     "gdpr": {
       "colorText": "#a7a7a7",
       "colorLink": "#f98b74",
       "underlineLink": false,
-      "text": "Continuando estás de acuerdo con nuestras <a href='privacidad.html'>condiciones de servicio</a> y <a href='privacidad.html'>política de privacidad</a>."
+      "text": "Continuando estás de acuerdo con nuestro <a href='aviso-legal.html'>aviso legal</a> y <a href='privacidad.html'>política de privacidad</a>."
     },
-    "canonical-url": false
+    "canonical-url": false,
+    "cookiesAlert": false
   },
   "pages": {
     "index.html": {
@@ -1737,7 +1726,7 @@
             }
           },
           "_name": "footer01",
-          "_customHTML": "<section class=\"footer1\" group=\"Footer\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"5\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"range\" inline title=\"Images Count\" name=\"imgCount\" min=\"1\" max=\"2\" value=\"1\" step=\"1\">\n        <input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"7\" value=\"3\" step=\"1\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"2.5\" step=\"0.1\" value=\"1.9\">\n        <input type=\"color\" name=\"iconsBg\" title=\"Icons Bg\" value=\"#003188\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"container\">\n        \n        <div class=\"mbr-row\">\n        \n          <div class=\"mbr-col-lg-5 md-pb mbr-col-md-6 mbr-col-sm-12\">\n    \n        <h3 class=\"mbr-fonts-style align-left mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Podrás encontrarnos y compartir nuestras noticias en las redes sociales</h3>         \n                <p class=\"mbr-text1 mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text1\">Te daremos consejos de usos y utilización del material sanitario, para que entre todos, podamos parar este virus.</p>\n              \n        <div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\">\n            <a href=\"https://wa.me/34691532733\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon class=\"amp-iconfont fa-whatsapp fa\"></span>\n                </span>\n            </a>\n         \n            <a href=\"https://www.instagram.com/lamascarillastore/\" target=\"_blank\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon class=\"amp-iconfont fa-instagram fa\"></span>\n                </span>\n            </a><a href=\"mailto:grupogarciamunoz@gmail.com\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon class=\"amp-iconfont fa-envelope fa\"></span>\n                </span>\n            </a></div>\n        </div>\n            \n            <div class=\"mbr-col-lg-4 align-center mbr-col-md-6 mbr-col-sm-12\">\n                \n                 <amp-img mbr-if=\"imgCount>0\" src=\"@PROJECT_PATH@/assets/images/grupo-garcia-munoz-logo-536x293.png\" layout=\"responsive\" width=\"269.97204095563137\" height=\"147.578\" alt=\"Grupo García Muñoz - Logo\" class=\"mobirise-loader\" title=\"Grupo García Muñoz - Logo\">\n                            <div placeholder class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/grupo-garcia-munoz-logo-536x293.png\" alt=\"Grupo García Muñoz - Logo\" title=\"Grupo García Muñoz - Logo\">\n                        </amp-img>\n                \n                  <amp-img mbr-if=\"imgCount>1\" src=\"@PROJECT_PATH@/assets/images/grupo-garcia-munoz-logo-536x293.png\" layout=\"responsive\" width=\"-29.269624573378838\" height=\"-16\" alt=\"Grupo García Muñoz\" class=\"mobirise-loader\">\n                            <div placeholder class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/grupo-garcia-munoz-logo-536x293.png\" alt=\"Grupo García Muñoz\" title>\n                        </amp-img>\n                \n                \n                </div>\n                \n                <div class=\"mbr-col-lg-3 mbr-col-md-12 mbr-col-sm-12\">\n                    <h4 class=\"card-title1 mbr-fonts-style align-right mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title1\">Tu tienda física</h4>\n                        <h5 class=\"mbr-text2 mbr-fonts-style align-right\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text2\">La Mascarilla<br>C/Carrera Nº9<br>41530<br>Morón de la Frontera<br>SEVILLA</h5>\n                  </div>  \n                    \n                    \n          </div> </div>\n    </section>",
+          "_customHTML": "<section class=\"footer1\" group=\"Footer\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"5\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Images Count\" name=\"imgCount\" min=\"1\" max=\"2\" value=\"1\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"7\" value=\"3\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"2.5\" step=\"0.1\" value=\"1.9\">\n        <input type=\"color\" name=\"iconsBg\" title=\"Icons Bg\" value=\"#003188\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"container\">\n        \n        <div class=\"mbr-row\">\n        \n          <div class=\"mbr-col-lg-5 md-pb mbr-col-md-6 mbr-col-sm-12\">\n    \n        <h3 class=\"mbr-fonts-style align-left mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Podrás encontrarnos y compartir nuestras noticias en las redes sociales</h3>         \n                <p class=\"mbr-text1 mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text1\">Te daremos consejos de usos y utilización del material sanitario, para que entre todos, podamos parar este virus.</p>\n              \n        <div class=\"icons-list\" mbr-list=\"\" mbr-list-grow=\"iconsCount\">\n            <a href=\"https://wa.me/34691532733\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont fa-whatsapp fa\"></span>\n                </span>\n            </a>\n         \n            <a href=\"https://www.instagram.com/lamascarillastore/\" target=\"_blank\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont fa-instagram fa\"></span>\n                </span>\n            </a><a href=\"mailto:grupogarciamunoz@gmail.com\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont fa-envelope fa\"></span>\n                </span>\n            </a></div>\n        </div>\n            \n            <div class=\"mbr-col-lg-4 align-center mbr-col-md-6 mbr-col-sm-12\">\n                \n                 <amp-img mbr-if=\"imgCount>0\" src=\"@PROJECT_PATH@/assets/images/grupo-garcia-munoz-logo-536x293.png\" layout=\"responsive\" width=\"269.97204095563137\" height=\"147.578\" alt=\"Grupo García Muñoz - Logo\" class=\"mobirise-loader\" title=\"Grupo García Muñoz - Logo\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/grupo-garcia-munoz-logo-536x293.png\" alt=\"Grupo García Muñoz - Logo\" title=\"Grupo García Muñoz - Logo\">\n                        </amp-img>\n                \n                  <amp-img mbr-if=\"imgCount>1\" src=\"@PROJECT_PATH@/assets/images/grupo-garcia-munoz-logo-536x293.png\" layout=\"responsive\" width=\"-29.269624573378838\" height=\"-16\" alt=\"Grupo García Muñoz\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/grupo-garcia-munoz-logo-536x293.png\" alt=\"Grupo García Muñoz\" title=\"\">\n                        </amp-img>\n                \n                \n                </div>\n                \n                <div class=\"mbr-col-lg-3 mbr-col-md-12 mbr-col-sm-12\">\n                    <h4 class=\"card-title1 mbr-fonts-style align-right mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title1\">Tu tienda física</h4>\n                        <h5 class=\"mbr-text2 mbr-fonts-style align-right\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text2\">La Mascarilla<br>C/Carrera Nº9<br>41530<br>Morón de la Frontera<br>SEVILLA</h5>\n                  </div>  \n                    \n                    \n          </div> </div>\n    </section>",
           "_cid": "s8RRplZ4CP",
           "_anchor": "footer01-5",
           "_protectedParams": [],
@@ -1782,7 +1771,7 @@
     "perfumeria.html": {
       "settings": {
         "title": "Perfumería",
-        "order": 1,
+        "order": 2,
         "meta_descr": "La Mascarilla Store - Ofrecemos una sección de perfumería selecta dentro de nuestros productos higiénico sanitarios."
       },
       "components": [
@@ -2286,7 +2275,7 @@
     "privacidad.html": {
       "settings": {
         "title": "Privacidad",
-        "order": 2,
+        "order": 3,
         "meta_descr": "La Mascarilla Store - Privacidad de cookies"
       },
       "components": [
@@ -2520,6 +2509,706 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "section": {
+              "background": "transparent",
+              "p": {
+                "padding-bottom": "1rem"
+              }
+            },
+            ".section-title": {
+              "z-index": "2",
+              "padding": "1.5rem 0rem",
+              "padding-right": "4rem",
+              "border": "0",
+              "border-top": "1px solid @border",
+              "outline": "none",
+              "background": "transparent",
+              "&:before": {
+                "z-index": "2",
+                "position": "absolute",
+                "top": "50%",
+                "transform": "translateY(-50%)",
+                "right": "0.5rem",
+                "content": "'+'",
+                "text-align": "center",
+                "margin-right": "10px",
+                "background": "transparent",
+                "transition": "all 0.3s",
+                "width": "40px",
+                "height": "40px",
+                "color": "@counterColor",
+                "display": "flex",
+                "justify-content": "center",
+                "font-weight": "300",
+                "align-items": "center",
+                "font-size": "2.5rem",
+                "border-radius": "50%"
+              },
+              "&:hover": {
+                "&:before": {
+                  "background": "@counterBGColor"
+                }
+              }
+            },
+            ".accordion when (@showTitle)": {
+              "padding-top": "2rem"
+            }
+          },
+          "_name": "accordion02",
+          "_customHTML": "<section class=\"accordion2\" group=\"Toggles & Tabs\" plugins=\"amp-main,amp-accordion\">\n\n  <mbr-parameters>\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n       <input type=\"color\" title=\"Counters Color\" name=\"counterColor\" value=\"#fb5f3d\" condition=\"stylizedCounters\">\n      <input type=\"color\" title=\"Counters BG Color\" name=\"counterBGColor\" value=\"#fff0ed\" condition=\"stylizedCounters\">\n      <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n      \n      <select title=\"Tabs\" name=\"tabsAmount\">\n          <option value=\"2\">4</option>\n          <option value=\"3\">6</option>\n          <option value=\"4\">8</option>\n          <option value=\"5\">10</option>\n          <option value=\"6\" selected>12</option>\n      </select>\n      <input type=\"color\" title=\"Border Color\" name=\"border\" value=\"#eaeaea\">\n\n      <fieldset type=\"background\" name=\"bg\">\n          <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n      </fieldset>\n  <!-- End block parameters -->\n  </mbr-parameters>\n  <div class=\"container\">\n      \n      <div class=\"mbr-row\">\n      \n              <div class=\"mbr-col-lg-12 title-col mbr-col-md-12 mbr-col-sm-12\" mbr-if=\"showTitle\">\n            <h2 class=\"title mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-2\" data-app-selector=\".title\">Política de Privacidad&nbsp;</h2>\n            \n                      \n            </div>\n          \n                  \n      <div class=\"mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12\">\n  <amp-accordion class=\"accordion\" disable-session-states>\n        <section>\n          <h4 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-title\">Política de Privacidad&nbsp;</h4>\n          <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">La Mascarilla Store te informa sobre su Política de Privacidad respecto del tratamiento y protección de los datos de carácter personal de los usuarios y clientes que puedan ser recabados por la navegación o contratación de servicios a través del sitio Web LaMascarillaStore.com.\n<br>En este sentido, el Titular garantiza el cumplimiento de la normativa vigente en materia de protección de datos personales, reflejada en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y de Garantía de Derechos Digitales (LOPD GDD). Cumple también con el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas (RGPD).\n<br>El uso de sitio Web implica la aceptación de esta Política de Privacidad así como las condiciones incluidas en el Aviso Legal.&nbsp;<br></p>\n        </section>\n        <section>\n          <h4 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-title\">Identidad del responsable</h4>\n          <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">•\tTitular: Julián García Rodríguez \n<br>•\tNIF/CIF: 48985075C \n<br>•\tDomicilio: Polígono industrial El fontanal, C/Juncia 14, 41530. Morón de la Frontera, Sevilla. \n<br>•\tCorreo electrónico: grupogarciamunoz@gmail.com\n<br>•\tSitio Web: www.lamascarillastore.com&nbsp;<br></p>\n        </section>\n        <section mbr-if=\"tabsAmount > 2\">\n          <h4 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-title\">Principios aplicados en el tratamiento de datos</h4>\n          <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">En el tratamiento de tus datos personales, el Titular aplicará los siguientes principios que se ajustan a las exigencias del nuevo reglamento europeo de protección de datos:\n<br>•\tPrincipio de licitud, lealtad y transparencia: El Titular siempre requerirá el consentimiento para el tratamiento de tus datos personales que puede ser para uno o varios fines específicos sobre los que te informará previamente con absoluta transparencia.\n<br>•\tPrincipio de minimización de datos: El Titular te solicitará solo los datos estrictamente necesarios para el fin o los fines que los solicita.\n<br>•\tPrincipio de limitación del plazo de conservación: Los datos se mantendrán durante el tiempo estrictamente necesario para el fin o los fines del tratamiento.\n<br>El Titular te informará del plazo de conservación correspondiente según la finalidad. En el caso de suscripciones, el Titular revisará periódicamente las listas y eliminará aquellos registros inactivos durante un tiempo considerable.\n<br>•\tPrincipio de integridad y confidencialidad: Tus datos serán tratados de tal manera que su seguridad, confidencialidad e integridad esté garantizada. Debes saber que el Titular toma las precauciones necesarias para evitar el acceso no autorizado o uso indebido de los datos de sus usuarios por parte de terceros.&nbsp;<br></p>\n        </section>\n        <section mbr-if=\"tabsAmount > 3\">\n          <h4 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-title\">Finalidad del tratamiento de datos personales</h4>\n          <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">Cuando te conectas al sitio Web para mandar un correo al Titular, te suscribes a su boletín o realizas una contratación, estás facilitando información de carácter personal de la que el responsable es el Titular. Esta información puede incluir datos de carácter personal como pueden ser tu dirección IP, nombre y apellidos, dirección física, dirección de correo electrónico, número de teléfono, y otra información. Al facilitar esta información, das tu consentimiento para que tu información sea recopilada, utilizada, gestionada y almacenada por superadmin.es , sólo como se describe en el Aviso Legal y en la presente Política de Privacidad.\n<br>Los datos personales y la finalidad del tratamiento por parte del Titular es diferente según el sistema de captura de información:\n<br>•\tFormularios de contacto: El Titular solicita datos personales entre los que pueden estar: Nombre y apellidos, dirección de correo electrónico, número de teléfono y dirección de tu sitio Web con la finalidad de responder a tus consultas.\n<br>Por ejemplo, el Titular utiliza esos datos para dar respuesta a tus mensajes, dudas, quejas, comentarios o inquietudes que puedas tener relativas a la información incluida en el sitio Web, los servicios que se prestan a través del sitio Web, el tratamiento de tus datos personales, cuestiones referentes a los textos legales incluidos en el sitio Web, así como cualquier otra consulta que puedas tener y que no esté sujeta a las condiciones del sitio Web o de la contratación.\n<br>Existen otras finalidades por las que el Titular trata tus datos personales:\n<br>•\tPara garantizar el cumplimiento de las condiciones recogidas en el Aviso Legal y en la ley aplicable. Esto puede incluir el desarrollo de herramientas y algoritmos que ayuden a este sitio Web a garantizar la confidencialidad de los datos personales que recoge.\n<br>•\tPara apoyar y mejorar los servicios que ofrece este sitio Web.\n<br>•\tPara analizar la navegación. El Titular recoge otros datos no identificativos que se obtienen mediante el uso de cookies que se descargan en tu ordenador cuando navegas por el sitio Web cuyas caracterísiticas y finalidad están detalladas en la Política de Cookies .\n<br>•\tPara gestionar las redes sociales. el Titular tiene presencia en redes sociales. Si te haces seguidor en las redes sociales del Titular el tratamiento de los datos personales se regirá por este apartado, así como por aquellas condiciones de uso, políticas de privacidad y normativas de acceso que pertenezcan a la red social que proceda en cada caso y que has aceptado previamente.\n<br>Puedes consultar las políticas de privacidad de las principales redes sociales en estos enlaces:\n<br>•\tInstagram\n<br>El Titular tratará tus datos personales con la finalidad de administrar correctamente su presencia en la red social, informarte de sus actividades, productos o servicios, así como para cualquier otra finalidad que las normativas de las redes sociales permitan.\n<br>En ningún caso el Titular utilizará los perfiles de seguidores en redes sociales para enviar publicidad de manera individual.&nbsp;<br></p>\n        </section>\n        <section mbr-if=\"tabsAmount > 4\">\n          <h4 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-title\">Seguridad de los datos personales</h4>\n          <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">Para proteger tus datos personales, el Titular toma todas las precauciones razonables y sigue las mejores prácticas de la industria para evitar su pérdida, mal uso, acceso indebido, divulgación, alteración o destrucción de los mismos.\n<br>El sitio Web está alojado en GitHub. La seguridad de tus datos está garantizada, ya que toman todas las medidas de seguridad necesarias para ello. Puedes consultar su política de privacidad para tener más información.&nbsp;<br></p>\n        </section>\n        <section mbr-if=\"tabsAmount > 5\">\n          <h4 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-title\">Revocabilidad&nbsp;<div><br></div></h4>\n          <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">Para ejercitar tus derechos de acceso, rectificación, cancelación, portabilidad y oposición tienes que enviar un correo electrónico a grupogarciamunoz@gmail.com junto con la prueba válida en derecho como una fotocopia del D.N.I. o equivalente.\n<br>El ejercicio de tus derechos no incluye ningún dato que el Titular esté obligado a conservar con fines administrativos, legales o de seguridad.\n<br><br>Cambios en la Política de Privacidad\n<br><br>El Titular se reserva el derecho a modificar la presente Política de Privacidad para adaptarla a novedades legislativas o jurisprudenciales, así como a prácticas de la industria.&nbsp;<br></p>\n        </section>\n      </amp-accordion>\n     \n     </div>     \n          \n                 <div class=\"mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12\">\n                     \n                         \n      <amp-accordion class=\"accordion\" disable-session-states>\n        <section>\n          <h4 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-title\">Contenido de otros sitios web</h4>\n          <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">Las páginas de este sitio Web pueden incluir contenido incrustado (por ejemplo, vídeos, imágenes, artículos, etc.). El contenido incrustado de otras web se comporta exactamente de la misma manera que si hubieras visitado la otra web.\n<br>Estos sitios Web pueden recopilar datos sobre ti, utilizar cookies, incrustar un código de seguimiento adicional de terceros, y supervisar tu interacción usando este código.&nbsp;<br></p>\n        </section>\n        <section>\n          <h4 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-title\">Legitimación para el tratamiento de datos</h4>\n          <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">La base legal para el tratamiento de tus datos es: el consentimiento.\n<br>Para contactar con el Titular, suscribirte a un boletín o realizar comentarios en este sitio Web tienes que aceptar la presente Política de Privacidad.\n<br>Categorías de datos personales\n<br>Las categorías de datos personales que trata el Titular son:\n<br>•\tDatos identificativos.&nbsp;<br>Conservación de datos personales:<br>Los datos personales que proporciones al Titular se conservarán hasta que solicites su supresión.&nbsp;<br></p>\n        </section>\n        <section mbr-if=\"tabsAmount > 2\">\n          <h4 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-title\">Destinatarios de datos personales</h4>\n          <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">•\tGoogle Analytics es un servicio de analítica web prestado por Google, Inc., una compañía de Delaware cuya oficina principal está en 1600 Amphitheatre Parkway, Mountain View (California), CA 94043, Estados Unidos (“Google”). Encontrarás más información en: https://analytics.google.com\n<br>Google Analytics utiliza “cookies”, que son archivos de texto ubicados en tu ordenador, para ayudar al Titular a analizar el uso que hacen los usuarios del sitio Web. La información que genera la cookie acerca del uso del sitio Web (incluyendo tu dirección IP) será directamente transmitida y archivada por Google en los servidores de Estados Unidos.\n<br>También puedes ver una lista de los tipos de cookies que utiliza Google y sus colaboradores y toda la información relativa al uso que hacen de cookies publicitarias.&nbsp;<br></p>\n        </section>\n        <section mbr-if=\"tabsAmount > 3\">\n          <h4 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-title\">Navegación Web</h4>\n          <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">Al navegar por lamascarillastore.com se pueden recoger datos no identificativos, que pueden incluir, la dirección IP, geolocalización, un registro de cómo se utilizan los servicios y sitios, hábitos de navegación y otros datos que no pueden ser utilizados para identificarte.\n<br>El sitio Web utiliza los siguientes servicios de análisis de terceros:\n<br>•\tGoogle Analytics\n<br>El Titular utiliza la información obtenida para obtener datos estadísticos, analizar tendencias, administrar el sitio, estudiar patrones de navegación y para recopilar información demográfica.&nbsp;<br></p>\n        </section>\n        <section mbr-if=\"tabsAmount > 4\">\n          <h4 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-title\">Exactitud y veracidad de los datos personales</h4>\n          <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">Te comprometes a que los datos facilitados al Titular sean correctos, completos, exactos y vigentes, así como a mantenerlos debidamente actualizados.\n<br>Como Usuario del sitio Web eres el único responsable de la veracidad y corrección de los datos que remitas al sitio exonerando a el Titular de cualquier responsabilidad al respecto.&nbsp;<br></p>\n        </section>\n        <section mbr-if=\"tabsAmount > 5\">\n          <h4 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-title\">Aceptación y consentimiento</h4>\n          <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">Como Usuario del sitio Web declaras haber sido informado de las condiciones sobre protección de datos de carácter personal, aceptas y consientes el tratamiento de los mismos por parte de el Titular en la forma y para las finalidades indicadas en esta Política de Privacidad.\n&nbsp;<br></p>\n        </section>\n      </amp-accordion>\n                         </div> \n      \n      </div>\n      \n  \n  </div>\n</section>",
+          "_cid": "sbYcP0h9x9",
+          "_anchor": "accordion02-z",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "p": {
+              "position": "relative",
+              "padding-top": "2rem",
+              "&:before": {
+                "position": "absolute",
+                "top": "0",
+                "left": "50%",
+                "content": "''",
+                "transform": "translateX(-50%)",
+                "width": "30%",
+                "height": "2px",
+                "background": "@border"
+              }
+            },
+            ".mbr-text": {
+              "color": "#f98b74"
+            }
+          },
+          "_name": "content01",
+          "_customHTML": "<section class=\"content1\" group=\"Content\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Border Color\" name=\"border\" value=\"#eaeaea\" selected>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n           <div class=\"mbr-row mbr-jc-c\">\n        <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-6 align-center\">\n            <p class=\"mbr-text mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">Este sitio web no almacena cookies, <a href=\"page4.html\" class=\"text-primary\">pero te mostramos la política que las pudiera respaldar</a></p>\n        </div>\n               </div>\n    </div>\n</section>",
+          "_cid": "sbYgloq7KK",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content01-10"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "p": {
+              "margin": "0",
+              "border-top": "1px solid @border",
+              "padding-top": "1rem"
+            },
+            ".mbr-text": {
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          },
+          "_name": "footer02",
+          "_customHTML": "<section class=\"footer2\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"color\" title=\"Border Color\" name=\"border\" value=\"#f98b74\" selected>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#003188\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-left mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2020 Grupo García Muñoz - Diseñado por <a href=\"http://www.estudio530.com\" target=\"_blank\">Estudio 530</a> - All Rights Reserved\n            </p>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "antivirusamp",
+          "_cid": "rW8V8IrUqq",
+          "_anchor": "footer02-t",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {}
+        }
+      ]
+    },
+    "aviso-legal.html": {
+      "settings": {
+        "title": "Aviso legal",
+        "order": 1
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "&.menu": {
+              "min-height": "138px"
+            },
+            ".brand-name": {
+              "color": "#ffffff",
+              "margin": "0"
+            },
+            ".navbar-collapse": {
+              "max-width": "1140px",
+              "margin": "auto",
+              "width": "100%"
+            },
+            "p": {
+              "margin": "0"
+            },
+            ".nav-link": {
+              "&:hover": {
+                "color": "@secondaryColor !important"
+              }
+            },
+            ".dropdown-menu": {
+              "box-shadow": "0 0px 20px rgba(0, 0, 0, 0.2)",
+              "border-radius": "8px",
+              "&:before": {
+                "height": "0",
+                "width": "0",
+                "border-bottom": "10px solid @menuBgColor",
+                "border-left": "10px solid transparent",
+                "border-right": "10px solid transparent",
+                "content": "''",
+                "position": "absolute",
+                "bottom": "100%",
+                "left": "20px"
+              }
+            },
+            ".phone": {
+              "background-color": "@phone",
+              "padding": "6px 10px",
+              "border-radius": "8px",
+              "color": "#fb5f3d"
+            },
+            ".phone-text": {
+              "margin": "0 1rem",
+              "color": "#ffffff"
+            },
+            ".navbar-brand": {
+              "border-right": "1px solid currentColor",
+              "margin-right": "0",
+              "padding": "0",
+              "transition": "all .3s"
+            },
+            ".top-box, .menu-box": {
+              "display": "flex",
+              "align-items": "center"
+            },
+            "& when not (@showLogoText)": {
+              ".navbar-brand": {
+                "border-right": "0px solid currentColor"
+              }
+            },
+            ".top-menu": {
+              "justify-content": "space-between",
+              "display": "flex",
+              "width": "100%",
+              "max-width": "1140px",
+              "margin": "0 auto 0.4rem",
+              "border-bottom": "1px solid @border",
+              "padding": "0.6rem 0"
+            },
+            ".brand-text": {
+              "padding-left": "0.5rem",
+              "margin": "0"
+            },
+            ".navbar-nav": {
+              ".nav-link, .nav-dropdown": {
+                "margin": "0.4rem 1.4rem 0.4rem 0 !important",
+                "padding": "0 !important",
+                "font-weight": "normal"
+              }
+            },
+            ".icons-list": {
+              "padding-right": "1rem",
+              "a": {
+                "padding": "0.1rem",
+                ".iconfont-wrapper": {
+                  "width": "~\"@{iconsSize}rem\"",
+                  "height": "~\"@{iconsSize}rem\"",
+                  ".amp-iconfont": {
+                    "color": "@icons",
+                    "font-size": "~\"@{iconsSize}rem\""
+                  }
+                }
+              }
+            },
+            ".nav-dropdown .dropdown-menu": {
+              ".dropdown-item": {
+                "font-weight": "400",
+                "width": "100%",
+                "&:hover": {
+                  "color": "@secondaryColor !important"
+                }
+              }
+            },
+            ".navbar": {
+              "display": "flex",
+              "-webkit-flex-direction": "row",
+              "flex-direction": "column",
+              "min-height": "138px",
+              "transition": "all .3s",
+              "background": "@menuBgColor",
+              "&.navbar-short": {
+                "background": "@menuBgColor !important",
+                ".navbar-brand": {
+                  "padding": "0"
+                }
+              },
+              "&.opened": {
+                "background": "@menuBgColor !important"
+              },
+              "@media (max-width: 991px)": {
+                ".navbar-collapse": {
+                  "display": "none",
+                  "position": "absolute",
+                  "top": "0",
+                  "right": "0",
+                  "min-height": "100vh",
+                  "width": "auto",
+                  "background": "@menuBgColor",
+                  "padding": "1rem 2rem 1rem 2rem",
+                  "& when (@sidebarSide = 'left')": {
+                    "right": "auto",
+                    "left": "0"
+                  }
+                }
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor"
+              }
+            },
+            ".hamburger span, .close-sidebar span": {
+              "background-color": "@hamburgerColor"
+            },
+            "button.navbar-toggler[aria-expanded=\"false\"], .hamburger": {
+              "top": "75px"
+            },
+            ".navbar-dropdown": {
+              "padding": ".5rem 1rem"
+            },
+            ".nav-link,.dropdown-item": {
+              ".mbr-iconfont": {
+                "margin-right": ".2rem"
+              }
+            },
+            ".ampstart-btn": {
+              "&.hamburger": {
+                "margin": "0.5rem 0 0 auto"
+              }
+            },
+            ".open": {
+              "transform": "translateX(0%) !important",
+              "display": "block!important",
+              "-webkit-transform": "translateX(0%) !important"
+            },
+            ".builder-sidebar": {
+              "background-color": "@menuBgColor"
+            },
+            ".close-sidebar": {
+              "&:focus": {
+                "outline": "2px auto @primaryColor"
+              }
+            },
+            "amp-img": {
+              "margin-right": "0.5rem",
+              "height": "40px",
+              "width": "40px"
+            },
+            ".brand-text, .navbar-brand": {
+              "color": "#f98b74"
+            },
+            "@media (max-width: 991px)": {
+              ".menu-box": {
+                "flex-direction": "column",
+                "padding-top": "1rem",
+                ".phone": {
+                  "margin-top": "8px"
+                }
+              },
+              ".nav-link, .nav-dropdown": {
+                "margin": "4px!important"
+              },
+              ".navbar": {
+                "min-height": "114px!important"
+              },
+              "&.menu": {
+                "min-height": "114px!important"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".icons-list, .brand-text": {
+                "display": "none"
+              },
+              ".navbar-brand": {
+                "border-right": "0px",
+                "amp-img": {
+                  "margin-right": "0"
+                }
+              }
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu horizontal-menu\" group=\"Menu\" plugins=\"DropDown, amp-main,amp-sidebar\" global=\"\" once=\"menu\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n         <input type=\"checkbox\" title=\"Show Logo Text\" name=\"showLogoText\" checked=\"\">\n           <input type=\"range\" inline=\"\" title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"7\" value=\"3\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"2\" step=\"0.1\" value=\"1.5\">\n        <input type=\"color\" name=\"icons\" title=\"Icons Color\" value=\"#ffffff\">\n        <input type=\"color\" name=\"border\" title=\"Border Color\" value=\"#f98b74\">\n        <input type=\"color\" name=\"phone\" title=\"Phone BG\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Phone\" name=\"showPhone\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#003188\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    \n \n    \n    \n\n    <nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n        \n          <div class=\"top-menu\">\n              \n              <div class=\"top-box\">\n     <p mbr-text=\"\" mbr-theme-style=\"display-5\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\"><a href=\"index.html#top\">LA MASCARILLA Store</a></p>\n   </div>\n              \n            <div class=\"top-box\">\n                <div class=\"icons-list\" mbr-list=\"\" mbr-list-grow=\"iconsCount\">\n            <a href=\"mailto:grupogarciamunoz@gmail.com\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont fa-envelope fa\"></span>\n                </span>\n            </a>\n         \n            <a href=\"https://wa.me/34 691 53 27 33\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont fa-whatsapp fa\"></span>\n                </span>\n            </a><a href=\"https://www.instagram.com/lamascarillastore/\" target=\"_blank\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont fa-instagram fa\"></span>\n                </span>\n            </a></div>\n       \n        \n        \n        \n                 <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/grupo-garcia-munoz-logo-marco-80x49.jpg\" layout=\"responsive\" width=\"65.3061224489796\" height=\"40\" alt=\"Grupo García Muñoz\" class=\"mobirise-loader\" title=\"Grupo García Muñoz\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/grupo-garcia-munoz-logo-marco-80x49.jpg\" alt=\"Grupo García Muñoz\" title=\"Grupo García Muñoz\">\n              </amp-img>\n          </span>\n      </div>\n              \n                <p mbr-text=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showLogoText\" class=\"brand-text mbr-fonts-style mbr-regular\" data-app-selector=\".brand-text, .navbar-brand\">Grupo García Muñoz</p>\n              \n                </div>\n              \n    </div>\n        \n        \n   \n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          \n          <div>\n          \n            <button class=\"navbar-toggler mb-2\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <ul mbr-menu=\"\" class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish &amp;&amp; !showBrand &amp;&amp; !showLogo}\"><li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link dropdown-toggle text-white\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">\n                        Productos</a>\n                    <div class=\"dropdown-menu\">\n                        <a class=\"dropdown-item text-white\" href=\"index.html#shop01-6\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Mascarillas</a>\n                        <a class=\"dropdown-item text-white\" href=\"index.html#shop01-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Gel</a><a class=\"dropdown-item text-white\" href=\"index.html#shop01-d\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Dosificador&nbsp;</a><a class=\"dropdown-item text-white\" href=\"http://www.lamascarillastore.com/index.html#shop01-6\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Lavavajillas</a><a class=\"dropdown-item text-white\" href=\"index.html#shop01-a\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Limpiador de suelos</a><a class=\"dropdown-item text-white\" href=\"http://www.lamascarillastore.com/index.html#shop01-6\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Desengrasante</a><a class=\"dropdown-item text-white\" href=\"http://www.lamascarillastore.com/index.html#shop01-6\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Desinfectante alimentario</a><a class=\"dropdown-item text-white\" href=\"perfumeria.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\"><span class=\"mbrib-gift mbr-iconfont mbr-iconfont-btn\"></span>Perfumería</a>\n                    </div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content04-f\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Quiénes somos</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#form01-3\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Contacto</a></li></ul>\n            \n          \n           </div>\n          \n          \n           <div class=\"menu-box\">\n            \n               \n               \n                <p mbr-text=\"\" mbr-theme-style=\"display-7\" mbr-if=\"showPhone\" class=\"phone-text mbr-fonts-style mbr-regular\" data-app-selector=\".phone-text\"></p>\n               \n                <p mbr-text=\"\" mbr-theme-style=\"display-7\" mbr-if=\"showPhone\" class=\"phone mbr-fonts-style mbr-regular\" data-app-selector=\".phone\"><a href=\"https://wa.me/0034691532733\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont fa-whatsapp fa\"></span>\n                </span>\n            </a></p>\n               <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">\n                  Contact Us\n                </a></div>\n          \n           </div>\n          \n          \n          \n      </div>\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n    </nav>\n\n  <!-- AMP plug -->\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n        </div>\n    </amp-sidebar>\n\n</section>",
+          "_cid": "rWebP6HdKM",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu1-11"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "@media (min-width: 992px)": {
+              ".mbr-col-lg-9": {
+                "flex": "0 0 75%",
+                "max-width": "75%",
+                "padding-right": "15px",
+                "padding-left": "15px",
+                "-webkit-flex": "0 0 75%"
+              }
+            },
+            "h2": {
+              "padding-bottom": "1rem"
+            }
+          },
+          "_name": "content04",
+          "_customHTML": "<section class=\"mbr-section content4\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n          <input type=\"checkbox\" title=\"Show Title\" name=\"showmainTitle\" checked>\n        \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        \n        <div class=\"mbr-row\">\n         <div class=\"mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12\">\n            <h2 class=\"title mbr-fonts-style align-left mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showmainTitle\" data-app-selector=\".title\">Aviso legal</h2>\n            \n             </div>\n                 <div class=\"mbr-col-lg-3 md-pb mbr-col-md-12 mbr-col-sm-12\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/grupo-garcia-munoz-logo-510x279.png\" layout=\"responsive\" height=\"2856\" width=\"5220.645161290322\" alt=\"la mascarilla store\" class=\"mobirise-loader\">\n                            <div placeholder class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/grupo-garcia-munoz-logo-510x279.png\" alt=\"la mascarilla store\">\n                        </amp-img>\n            \n             </div>\n            \n            \n        <div class=\"mbr-col-lg-9 mbr-col-md-12 mbr-col-sm-12\">\n        \n        \n        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Identificación y Titularidad\n</b><br>En cumplimiento del artículo 10 de la Ley 34 / 2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico, el Titular expone sus datos identificativos.\n<br>Titular: Julián García Rodríguez \n<br>NIF: 48985075C \n<br>•\t\n<br>Domicilio: Polígono industrial El fontanal, C/Juncia 14, 41530. Morón de la Frontera, Sevilla. \n<br>Correo electrónico: grupogarciamunoz@gmail.com \n<br>Sitio Web  www.lamascarillastore.com \n<br><b>Finalidad</b>\n<br>La finalidad del sitio Web  www.lamascarillastore.com es dar a conocer nuestros productos a través de un escaparate online.\n<br><b>Condiciones de Uso\n</b><br>La utilización del sitio Web le otorga la condición de Usuario, e implica la aceptación completa de todas las cláusulas y condiciones de uso incluidas en las páginas:\n<br>•\tAviso Legal\n<br>•\tPolítica de Privacidad\n<br>•\tPolítica de Cookies\n<br>Si no estuviera conforme con todas y cada una de estas cláusulas y condiciones absténgase de utilizar este sitio Web.\n<br>El acceso a este sitio Web no supone, en modo alguno, el inicio de una relación comercial con el Titular.\n<br>A través de este sitio Web, el Titular le facilita el acceso y la utilización de diversos contenidos que el Titular o sus colaboradores han publicadon por medio de Internet.\n<br>A tal efecto, usted está obligado y comprometido a NO utilizar cualquiera de los contenidos del sitio Web con fines o efectos ilícitos, prohibidos en este Aviso Legal o por la legislación vigente, lesivos de los derechos e intereses de terceros, o que de cualquier forma puedan dañar, inutilizar, sobrecargar, deteriorar o impedir la normal utilización de los contenidos, los equipos informáticos o los documentos, archivos y toda clase de contenidos almacenados en cualquier equipo informático propios o contratados por el Titular, de otros usuarios o de cualquier usuario de Internet.\n<br><b>Medidas de seguridad\n</b><br>Los datos personales que facilite al Titular pueden ser almacenados en bases de datos automatizadas o no, cuya titularidad corresponde en exclusiva a el Titular, que asume todas las medidas de índole técnica, organizativa y de seguridad que garantizan la confidencialidad, integridad y calidad de la información contenida en las mismas de acuerdo con lo establecido en la normativa vigente en protección de datos.\n<br>No obstante, debe ser consciente de que las medidas de seguridad de los sistemas informáticos en Internet no son enteramente fiables y que, por tanto el Titular no puede garantizar la inexistencia de virus u otros elementos que puedan producir alteraciones en los sistemas informáticos (software y hardware) del Usuario o en sus documentos electrónicos y ficheros contenidos en los mismos aunque el Titular pone todos los medios necesarios y toma las medidas de seguridad oportunas para evitar la presencia de estos elementos dañinos.\n<br><b>Datos personales\n</b><br>Usted puede consultar toda la información relativa al tratamiento de datos personales que recoge el Titular en la página de la Política de Privacidad.\n<br><b>Contenidos</b>\n<br>El Titular ha obtenido la información, el contenido multimedia y los materiales incluidos en el sitio Web de fuentes que considera fiables, pero, si bien ha tomado todas las medidas razonables para asegurar que la información contenida es correcta, el Titular no garantiza que sea exacta, completa o actualizada. El Titular declina expresamente cualquier responsabilidad por error u omisión en la información contenida en las páginas de este sitio Web.\n<br>Queda prohibido transmitir o enviar a través del sitio Web cualquier contenido ilegal o ilícito, virus informáticos, o mensajes que, en general, afecten o violen derechos de el Titular o de terceros.\n<br>Los contenidos del Sitio Web tienen únicamente una finalidad informativa y bajo ninguna circunstancia deben usarse ni considerarse como oferta de venta, solicitud de una oferta de compra ni recomendación para realizar cualquier otra operación, salvo que así se indique expresamente.\n<br>El Titular se reserva el derecho a modificar, suspender, cancelar o restringir el contenido del Sitio Web, los vínculos o la información obtenida a través del sitio Web, sin necesidad de previo aviso.\n<br>El Titular no es responsable de los daños y perjuicios que pudieran derivarse de la utilización de la información del sitio Web o de la contenida en las redes sociales del Titular.\n<br><b>Política de cookies\n</b><br>En la página Política de Cookies puede consultar toda la información relativa a la política de recogida y tratamiento de las cookies.\n<br>El Titular sólo obtiene y conserva la siguiente información acerca de los visitantes del Sitio Web:\n<br>•\tEl nombre de dominio del proveedor (PSI) y/o dirección IP que les da acceso a la red.\n<br>•\tLa fecha y hora de acceso al sitio Web.\n<br>•\tLa dirección de Internet origen del enlace que dirige al sitio Web.\n<br>•\tEl número de visitantes diarios de cada sección.\n<br>•\tLa información obtenida es totalmente anónima, y en ningún caso puede ser asociada a un Usuario concreto e identificado.\n<br><b>Enlaces de interés a otros sitios Web\n</b><br>El Titular puede proporcionarle acceso a sitios Web de terceros mediante enlaces con la finalidad de informar sobre la existencia de otras fuentes de información en Internet en las que podrá ampliar los datos ofrecidos en el sitio Web.\n<br>Estos enlaces a otros sitios Web no suponen en ningún caso una sugerencia o recomendación para que usted visite las páginas web de destino, que están fuera del control del Titular, por lo que Titular no es responsable del contenido de los sitios web vinculados ni del resultado que obtenga al seguir los enlaces.\n<br>Asimismo, el Titular no responde de los links o enlaces ubicados en los sitios web vinculados a los que le proporciona acceso.\n<br>El establecimiento del enlace no implica en ningún caso la existencia de relaciones entre Titular y el propietario del sitio en el que se establezca el enlace, ni la aceptación o aprobación por parte del Titular de sus contenidos o servicios.\n<br>Si accede a un sitio Web externo desde un enlace que encuentre en el Sitio Web usted deberá leer la propia política de privacidad del otro sitio web que puede ser diferente de la de este sitio Web.\n<br><b>Propiedad intelectual e industrial</b>\n<br>Todos los derechos están reservados.\n<br>Todo acceso a este sitio Web está sujeto a las siguientes condiciones: la reproducción, almacenaje permanente y la difusión de los contenidos o cualquier otro uso que tenga finalidad pública o comercial queda expresamente prohibida sin el consentimiento previo expreso y por escrito de Titular.\n<br><b>Limitación de responsabilidad\n</b><br>La información y servicios incluidos o disponibles a través de este sitio Web pueden incluir incorrecciones o errores tipográficos. De forma periódica el Titular incorpora mejoras y/o cambios a la información contenida y/o los Servicios que puede introducir en cualquier momento.\n<br>El Titular no declara ni garantiza que los servicios o contenidos sean interrumpidos o que estén libres de errores, que los defectos sean corregidos, o que el servicio o el servidor que lo pone a disposición estén libres de virus u otros componentes nocivos sin perjuicio de que el Titular realiza todos los esfuerzos en evitar este tipo de incidentes.\n<br>Titular declina cualquier responsabilidad en caso de que existan interrupciones o un mal funcionamiento de los Servicios o contenidos ofrecidos en Internet, cualquiera que sea su causa. Asimismo, el Titular no se hace responsable por caídas de la red, pérdidas de negocio a consecuencia de dichas caídas, suspensiones temporales de fluido eléctrico o cualquier otro tipo de daño indirecto que te pueda ser causado por causas ajenas a el Titular.\n<br>Antes de tomar decisiones y/o acciones con base a la información incluida en el sitio Web, el Titular le recomienda comprobar y contrastar la información recibida con otras fuentes.\n<br><b>Jurisdicción</b>\n<br>Este Aviso Legal se rige íntegramente por la legislación española.\n<br>Siempre que no haya una norma que obligue a otra cosa, para cuantas cuestiones se susciten sobre la interpretación, aplicación y cumplimiento de este Aviso Legal, así como de las reclamaciones que puedan derivarse de su uso, las partes acuerdan someterse a los Jueces y Tribunales de la provincia de Sevilla con renuncia expresa de cualquier otra jurisdicción que pudiera corresponderles.\n<br><b>Contacto</b>\n<br>En caso de que usted tenga cualquier duda acerca de estas Condiciones legales o quiera realizar cualquier comentario sobre este sitio Web, puede enviar un mensaje de correo electrónico a la dirección grupogarciamunoz@gmail.com \n<br>\n<br>\n<br>\n<br></p>\n               \n   \n            </div>\n       \n    </div>\n        </div>\n</section>",
+          "_cid": "sbYjbV5mxs",
+          "_anchor": "content04-13",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "p": {
+              "margin": "0",
+              "border-top": "1px solid @border",
+              "padding-top": "1rem"
+            },
+            ".mbr-text": {
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          },
+          "_name": "footer02",
+          "_customHTML": "<section class=\"footer2\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"color\" title=\"Border Color\" name=\"border\" value=\"#f98b74\" selected>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#003188\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-left mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2020 Grupo García Muñoz - Diseñado por <a href=\"http://www.estudio530.com\" target=\"_blank\">Estudio 530</a> - All Rights Reserved\n            </p>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "antivirusamp",
+          "_cid": "rW8V8IrUqq",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {},
+          "_anchor": "footer02-12"
+        }
+      ]
+    },
+    "page4.html": {
+      "settings": {
+        "title": "Cookies",
+        "order": 4,
+        "meta_descr": "La Mascarilla Store - Privacidad de cookies"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "&.menu": {
+              "min-height": "138px"
+            },
+            ".brand-name": {
+              "color": "#ffffff",
+              "margin": "0"
+            },
+            ".navbar-collapse": {
+              "max-width": "1140px",
+              "margin": "auto",
+              "width": "100%"
+            },
+            "p": {
+              "margin": "0"
+            },
+            ".nav-link": {
+              "&:hover": {
+                "color": "@secondaryColor !important"
+              }
+            },
+            ".dropdown-menu": {
+              "box-shadow": "0 0px 20px rgba(0, 0, 0, 0.2)",
+              "border-radius": "8px",
+              "&:before": {
+                "height": "0",
+                "width": "0",
+                "border-bottom": "10px solid @menuBgColor",
+                "border-left": "10px solid transparent",
+                "border-right": "10px solid transparent",
+                "content": "''",
+                "position": "absolute",
+                "bottom": "100%",
+                "left": "20px"
+              }
+            },
+            ".phone": {
+              "background-color": "@phone",
+              "padding": "6px 10px",
+              "border-radius": "8px",
+              "color": "#fb5f3d"
+            },
+            ".phone-text": {
+              "margin": "0 1rem",
+              "color": "#ffffff"
+            },
+            ".navbar-brand": {
+              "border-right": "1px solid currentColor",
+              "margin-right": "0",
+              "padding": "0",
+              "transition": "all .3s"
+            },
+            ".top-box, .menu-box": {
+              "display": "flex",
+              "align-items": "center"
+            },
+            "& when not (@showLogoText)": {
+              ".navbar-brand": {
+                "border-right": "0px solid currentColor"
+              }
+            },
+            ".top-menu": {
+              "justify-content": "space-between",
+              "display": "flex",
+              "width": "100%",
+              "max-width": "1140px",
+              "margin": "0 auto 0.4rem",
+              "border-bottom": "1px solid @border",
+              "padding": "0.6rem 0"
+            },
+            ".brand-text": {
+              "padding-left": "0.5rem",
+              "margin": "0"
+            },
+            ".navbar-nav": {
+              ".nav-link, .nav-dropdown": {
+                "margin": "0.4rem 1.4rem 0.4rem 0 !important",
+                "padding": "0 !important",
+                "font-weight": "normal"
+              }
+            },
+            ".icons-list": {
+              "padding-right": "1rem",
+              "a": {
+                "padding": "0.1rem",
+                ".iconfont-wrapper": {
+                  "width": "~\"@{iconsSize}rem\"",
+                  "height": "~\"@{iconsSize}rem\"",
+                  ".amp-iconfont": {
+                    "color": "@icons",
+                    "font-size": "~\"@{iconsSize}rem\""
+                  }
+                }
+              }
+            },
+            ".nav-dropdown .dropdown-menu": {
+              ".dropdown-item": {
+                "font-weight": "400",
+                "width": "100%",
+                "&:hover": {
+                  "color": "@secondaryColor !important"
+                }
+              }
+            },
+            ".navbar": {
+              "display": "flex",
+              "-webkit-flex-direction": "row",
+              "flex-direction": "column",
+              "min-height": "138px",
+              "transition": "all .3s",
+              "background": "@menuBgColor",
+              "&.navbar-short": {
+                "background": "@menuBgColor !important",
+                ".navbar-brand": {
+                  "padding": "0"
+                }
+              },
+              "&.opened": {
+                "background": "@menuBgColor !important"
+              },
+              "@media (max-width: 991px)": {
+                ".navbar-collapse": {
+                  "display": "none",
+                  "position": "absolute",
+                  "top": "0",
+                  "right": "0",
+                  "min-height": "100vh",
+                  "width": "auto",
+                  "background": "@menuBgColor",
+                  "padding": "1rem 2rem 1rem 2rem",
+                  "& when (@sidebarSide = 'left')": {
+                    "right": "auto",
+                    "left": "0"
+                  }
+                }
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor"
+              }
+            },
+            ".hamburger span, .close-sidebar span": {
+              "background-color": "@hamburgerColor"
+            },
+            "button.navbar-toggler[aria-expanded=\"false\"], .hamburger": {
+              "top": "75px"
+            },
+            ".navbar-dropdown": {
+              "padding": ".5rem 1rem"
+            },
+            ".nav-link,.dropdown-item": {
+              ".mbr-iconfont": {
+                "margin-right": ".2rem"
+              }
+            },
+            ".ampstart-btn": {
+              "&.hamburger": {
+                "margin": "0.5rem 0 0 auto"
+              }
+            },
+            ".open": {
+              "transform": "translateX(0%) !important",
+              "display": "block!important",
+              "-webkit-transform": "translateX(0%) !important"
+            },
+            ".builder-sidebar": {
+              "background-color": "@menuBgColor"
+            },
+            ".close-sidebar": {
+              "&:focus": {
+                "outline": "2px auto @primaryColor"
+              }
+            },
+            "amp-img": {
+              "margin-right": "0.5rem",
+              "height": "40px",
+              "width": "40px"
+            },
+            ".brand-text, .navbar-brand": {
+              "color": "#f98b74"
+            },
+            "@media (max-width: 991px)": {
+              ".menu-box": {
+                "flex-direction": "column",
+                "padding-top": "1rem",
+                ".phone": {
+                  "margin-top": "8px"
+                }
+              },
+              ".nav-link, .nav-dropdown": {
+                "margin": "4px!important"
+              },
+              ".navbar": {
+                "min-height": "114px!important"
+              },
+              "&.menu": {
+                "min-height": "114px!important"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".icons-list, .brand-text": {
+                "display": "none"
+              },
+              ".navbar-brand": {
+                "border-right": "0px",
+                "amp-img": {
+                  "margin-right": "0"
+                }
+              }
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu horizontal-menu\" group=\"Menu\" plugins=\"DropDown, amp-main,amp-sidebar\" global=\"\" once=\"menu\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n         <input type=\"checkbox\" title=\"Show Logo Text\" name=\"showLogoText\" checked=\"\">\n           <input type=\"range\" inline=\"\" title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"7\" value=\"3\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"2\" step=\"0.1\" value=\"1.5\">\n        <input type=\"color\" name=\"icons\" title=\"Icons Color\" value=\"#ffffff\">\n        <input type=\"color\" name=\"border\" title=\"Border Color\" value=\"#f98b74\">\n        <input type=\"color\" name=\"phone\" title=\"Phone BG\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Phone\" name=\"showPhone\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#003188\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    \n \n    \n    \n\n    <nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n        \n          <div class=\"top-menu\">\n              \n              <div class=\"top-box\">\n     <p mbr-text=\"\" mbr-theme-style=\"display-5\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\"><a href=\"index.html#top\">LA MASCARILLA Store</a></p>\n   </div>\n              \n            <div class=\"top-box\">\n                <div class=\"icons-list\" mbr-list=\"\" mbr-list-grow=\"iconsCount\">\n            <a href=\"mailto:grupogarciamunoz@gmail.com\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont fa-envelope fa\"></span>\n                </span>\n            </a>\n         \n            <a href=\"https://wa.me/34 691 53 27 33\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont fa-whatsapp fa\"></span>\n                </span>\n            </a><a href=\"https://www.instagram.com/lamascarillastore/\" target=\"_blank\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont fa-instagram fa\"></span>\n                </span>\n            </a></div>\n       \n        \n        \n        \n                 <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/grupo-garcia-munoz-logo-marco-80x49.jpg\" layout=\"responsive\" width=\"65.3061224489796\" height=\"40\" alt=\"Grupo García Muñoz\" class=\"mobirise-loader\" title=\"Grupo García Muñoz\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/grupo-garcia-munoz-logo-marco-80x49.jpg\" alt=\"Grupo García Muñoz\" title=\"Grupo García Muñoz\">\n              </amp-img>\n          </span>\n      </div>\n              \n                <p mbr-text=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showLogoText\" class=\"brand-text mbr-fonts-style mbr-regular\" data-app-selector=\".brand-text, .navbar-brand\">Grupo García Muñoz</p>\n              \n                </div>\n              \n    </div>\n        \n        \n   \n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          \n          <div>\n          \n            <button class=\"navbar-toggler mb-2\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <ul mbr-menu=\"\" class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish &amp;&amp; !showBrand &amp;&amp; !showLogo}\"><li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link dropdown-toggle text-white\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">\n                        Productos</a>\n                    <div class=\"dropdown-menu\">\n                        <a class=\"dropdown-item text-white\" href=\"index.html#shop01-6\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Mascarillas</a>\n                        <a class=\"dropdown-item text-white\" href=\"index.html#shop01-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Gel</a><a class=\"dropdown-item text-white\" href=\"index.html#shop01-d\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Dosificador&nbsp;</a><a class=\"dropdown-item text-white\" href=\"http://www.lamascarillastore.com/index.html#shop01-6\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Lavavajillas</a><a class=\"dropdown-item text-white\" href=\"index.html#shop01-a\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Limpiador de suelos</a><a class=\"dropdown-item text-white\" href=\"http://www.lamascarillastore.com/index.html#shop01-6\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Desengrasante</a><a class=\"dropdown-item text-white\" href=\"http://www.lamascarillastore.com/index.html#shop01-6\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Desinfectante alimentario</a><a class=\"dropdown-item text-white\" href=\"perfumeria.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\"><span class=\"mbrib-gift mbr-iconfont mbr-iconfont-btn\"></span>Perfumería</a>\n                    </div>\n                </li>\n                \n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content04-f\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Quiénes somos</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#form01-3\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Contacto</a></li></ul>\n            \n          \n           </div>\n          \n          \n           <div class=\"menu-box\">\n            \n               \n               \n                <p mbr-text=\"\" mbr-theme-style=\"display-7\" mbr-if=\"showPhone\" class=\"phone-text mbr-fonts-style mbr-regular\" data-app-selector=\".phone-text\"></p>\n               \n                <p mbr-text=\"\" mbr-theme-style=\"display-7\" mbr-if=\"showPhone\" class=\"phone mbr-fonts-style mbr-regular\" data-app-selector=\".phone\"><a href=\"https://wa.me/0034691532733\">\n                <span class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont fa-whatsapp fa\"></span>\n                </span>\n            </a></p>\n               <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">\n                  Contact Us\n                </a></div>\n          \n           </div>\n          \n          \n          \n      </div>\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n    </nav>\n\n  <!-- AMP plug -->\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n        </div>\n    </amp-sidebar>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "sbYlDTIwrU",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu1-14"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "p": {
+              "position": "relative",
+              "padding-top": "2rem",
+              "&:before": {
+                "position": "absolute",
+                "top": "0",
+                "left": "50%",
+                "content": "''",
+                "transform": "translateX(-50%)",
+                "width": "30%",
+                "height": "2px",
+                "background": "@border"
+              }
+            },
+            ".mbr-text": {
+              "color": "#f98b74"
+            }
+          },
+          "_name": "content01",
+          "_customHTML": "<section class=\"content1\" group=\"Content\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Border Color\" name=\"border\" value=\"#eaeaea\" selected>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n           <div class=\"mbr-row mbr-jc-c\">\n        <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-6 align-center\">\n            <p class=\"mbr-text mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">Este sitio web no almacena cookies, pero te mostramos la política que las pudiera respaldar</p>\n        </div>\n               </div>\n    </div>\n</section>",
+          "_cid": "sbYlDW65lQ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content01-16"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
             ".container": {
               "ol": {
@@ -2575,12 +3264,12 @@
           },
           "_name": "content02",
           "_customHTML": "<section class=\"mbr-section content2\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        \n        <input type=\"color\" title=\"Counters Color\" name=\"counterColor\" value=\"#fb5f3d\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Counters BG Color\" name=\"counterBGColor\" value=\"#fff0ed\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Border Color\" name=\"border\" value=\"#eaeaea\" condition=\"stylizedCounters\">\n        \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        \n        <div class=\"mbr-row\">\n        \n        <div class=\"mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12\">\n        \n       \n        <div class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n            <ol>\n                <li>POLÍTICA DE COOKIES DE LA MASCARILLA STORE. <br>En cumplimiento con lo dispuesto en el artículo 22.2 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, La Mascarilla Store informa, en esta sección, sobre la política de recogida y tratamiento de cookies.</li><li>¿QUÉ SON LAS COOKIES? <br>Una cookie es un fichero que se descarga en tu ordenador o equipo al acceder a determinadas páginas web. Las cookies permiten a una página web, entre otras cosas, almacenar y recuperar información sobre los hábitos de navegación del Usuario o de su equipo y, dependiendo de la información que contengan y de la forma en que utilice tu equipo, pueden utilizarse para reconocer al Usuario.</li><li>¿QUÉ TIPOS DE COOKIES UTILIZA ESTA PÁGINA WEB?<br><i>La Mascarilla Store</i> utiliza los siguientes tipos de cookies: Cookies de análisis: Son aquéllas que bien tratadas por nosotros o por terceros, nos permiten cuantificar el número de usuarios y así realizar la medición y análisis estadístico de la utilización que hacen los usuarios del servicio ofertado. Para ello se analiza su navegación en nuestra página web con el fin de mejorar la oferta de productos o servicios que te ofrecemos. Cookies técnicas: Son aquellas que permiten al usuario la navegación a través del área restringida y la utilización de sus diferentes funciones, como por ejemplo, llevar a cambio el proceso de compra de un artículo. Cookies de personalización: Son aquellas que permiten al Usuario acceder al servicio con algunas características de carácter general predefinidas en función de una serie de criterios en el terminal del usuario como por ejemplo serian el idioma o el tipo de navegador a través del cual se conecta al servicio. Cookies publicitarias: Son aquéllas que, bien tratadas por esta web o por terceros, permiten gestionar de la forma más eficaz posible la oferta de los espacios publicitarios que hay en la página web, adecuando el contenido del anuncio al contenido del servicio solicitado o al uso que realices de nuestra página web. Para ello podemos analizar tus hábitos de navegación en Internet y podemos mostrarte publicidad relacionada con tu perfil de navegación. Cookies de publicidad comportamental: Son aquellas que permiten la gestión, de la forma más eficaz posible, de los espacios publicitarios que, en su caso, el editor haya incluido en una página web, aplicación o plataforma desde la que presta el servicio solicitado. Este tipo de cookies almacenan información del comportamiento de los visitantes obtenida a través de la observación continuada de sus hábitos de navegación, lo que permite desarrollar un perfil específico para mostrar avisos publicitarios en función del mismo.</li><li>DESACTIVAR LAS COOKIES. El Usuario puede permitir, bloquear o eliminar las cookies instaladas en su equipo mediante la configuración de las opciones del navegador instalado en su ordenador. En la mayoría de los navegadores web se ofrece la posibilidad de permitir, bloquear o eliminar las cookies instaladas en su equipo.</li><li>COOKIES DE TERCEROS. La Mascarilla Store utiliza servicios de terceros para recopilar información con fines estadísticos y de uso de la web. Se usan cookies de DoubleClick para mejorar la publicidad que se incluye en el sitio web. Son utilizadas para orientar la publicidad según el contenido que es relevante para un usuario, mejorando así la calidad de experiencia en el uso del mismo. En concreto, usamos los servicios de Google Adsense y de Google Analytics para nuestras estadísticas y publicidad. Algunas cookies son esenciales para el funcionamiento del sitio, por ejemplo el buscador incorporado. Nuestro sitio incluye otras funcionalidades proporcionadas por terceros. El Usuario puede fácilmente compartir el contenido en redes sociales como Facebook, Twitter o Google +, con los botones que hemos incluido a tal efecto.</li><li>ADVERTENCIA SOBRE ELIMINAR COOKIES. El Usuario puede eliminar y bloquear todas las cookies de este sitio, pero parte del sitio no funcionará o la calidad de la página web y de los Contenidos pueden verse afectados.</li>\n            </ol><div><br></div>\n        </div>\n    </div>\n             </div>\n        </div>\n</section>",
-          "_cid": "s9srJ1d4Jm",
-          "_anchor": "content02-v",
+          "_cid": "sbYlDWFhU0",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content02-17"
         },
         {
           "alias": false,
@@ -2607,12 +3296,12 @@
           "_customHTML": "<section class=\"footer2\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"color\" title=\"Border Color\" name=\"border\" value=\"#f98b74\" selected>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#003188\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-left mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2020 Grupo García Muñoz - Diseñado por <a href=\"http://www.estudio530.com\" target=\"_blank\">Estudio 530</a> - All Rights Reserved\n            </p>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "antivirusamp",
-          "_cid": "rW8V8IrUqq",
-          "_anchor": "footer02-t",
+          "_cid": "sbYlDXdzAj",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {}
+          "_params": {},
+          "_anchor": "footer02-18"
         }
       ]
     }
